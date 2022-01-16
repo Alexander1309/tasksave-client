@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__all {
+    width: 100%;
+    height: 100vh;
+    background-color: #8D6E63;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #3E2723;
+    position: relative;
+}
+
+.header__title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
