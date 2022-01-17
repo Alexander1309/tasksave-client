@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom'
 import { authContext } from './contexts/authContext'
 import Auth from './pages/auth/auth'
-import SignIn from './views/SignIn/SignIn'
+import SignIn from './components/SignIn/SignIn'
 
 const PrivateRoute = ({children, isAuth}) => isAuth ? children : <Navigate to="/auth/signIn" replace />
 
